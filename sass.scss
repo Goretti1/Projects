@@ -1,0 +1,64 @@
+$color: rgb(77, 14, 14);
+%design {
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .col {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 601px) {
+    .col {
+        width: 100%;
+    }
+}
+
+.col {
+    flex: 50%;
+    padding: 10px;
+}
+
+h4 {
+    color: $color;
+}
+
+nav>h4 {
+    @extend %design;
+    margin-top: 50px;
+}
+
+h2 {
+    @extend %design;
+    background-color: $color;
+    height: 130px;
+    color: white;
+    padding-top: 50px;
+}
+
+.container {
+    background-color: rgb(248, 244, 244);
+    background-size: cover;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.return {
+    padding-left: 20px;
+    padding-top: 20px;
+    font-weight: 300px;
+}
+
+nav {
+    ul {
+        margin-left: 400px;
+        padding: 0;
+        list-style: none;
+    }
+    li {
+        display: inline-block;
+    }
+}

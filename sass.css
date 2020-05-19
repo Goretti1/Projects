@@ -1,0 +1,72 @@
+nav > h4, h2 {
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .col {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 601px) {
+  .col {
+    width: 100%;
+  }
+}
+
+.col {
+  -webkit-box-flex: 50%;
+      -ms-flex: 50%;
+          flex: 50%;
+  padding: 10px;
+}
+
+h4 {
+  color: #4d0e0e;
+}
+
+nav > h4 {
+  margin-top: 50px;
+}
+
+h2 {
+  background-color: #4d0e0e;
+  height: 130px;
+  color: white;
+  padding-top: 50px;
+}
+
+.container {
+  background-color: #f8f4f4;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.return {
+  padding-left: 20px;
+  padding-top: 20px;
+  font-weight: 300px;
+}
+
+nav ul {
+  margin-left: 400px;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+}
+/*# sourceMappingURL=sass.css.map */
