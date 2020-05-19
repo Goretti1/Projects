@@ -1,0 +1,68 @@
+body,
+html {
+    height: 100%;
+    background-color: rgb(77, 14, 14);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+body .material-icons right {
+    color: white;
+}
+
+.input-field,
+.center-align,
+#welcome-text {
+    padding: 10px;
+}
+
+canvas {
+    display: block;
+}
+
+#forgot-password {
+    color: #fff !important;
+}
+
+#overlay {
+    position: relative;
+}
+
+#page-footer {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2px;
+    width: 100%;
+}
+
+#break-line {
+    margin-top: 48rem;
+}
+
+#break-space {
+    margin-top: 33.5rem;
+}
+
+#welcome-text {
+    padding-top: 60px;
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+
+.btn btn-primary {
+    color: #fff;
+    background-color: rgb(77, 14, 14);
+}
+
+.return {
+    padding-left: 20px;
+    padding-top: 20px;
+}

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>
+            Register | Galaxy Data
+    </title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://paycheap.ng/assets/css/fonts.css">
+    <link rel="stylesheet" href="https://paycheap.ng/ui/css/materialIcons.css">
+    <link rel="stylesheet" href="https://paycheap.ng/ui/css/materialize.min.css">
+    <link rel="stylesheet" href="https://paycheap.ng/alerts/themes/default.min.css">
+    <style>
+    body,
+    html {
+        height: 100%;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(77, 14, 14);
+    }
+    
+    canvas {
+        display: block;
+        vertical-align: middle;
+    }
+    #forgot-password {
+        color: #fff !important;
+    }
+    #overlay {
+        position: relative;
+    }
+    
+    #break-line {
+        margin-top: 48rem;
+    }
+    #break-space {
+        margin-top: 10rem;
+    }
+    </style>
+</head>
+<body>
+    <div id="particles-js"></div>
+    <div id="break-line" class="hide-on-med-and-up"></div>
+    <div id="break-space" class="hide-on-small-only"></div>
+    <div id="overlay">
+            <form action="https://galaxydata.ng/register" method="POST">
+        <input type="hidden" name="_token" value="3DTAixNMkbae6sMmW8ftdo8ytGtL8OBtaqNblbMN">        <div class="card card-panel hoverable" id="card">
+            
+            <p style="display:block; text-align:center;" id="welcome-text">Hey, welcome to Galaxy Data!
+                <br>
+                <span id="small-text">Register to get started.</span>
+            </p>
+            <div class="card-title">
+                <h5 class="center-align">User Registration</h5>
+            </div>
+            <div class="row">
+                <div class="input-field col s6 m6 l6">
+                    <i class="material-icons prefix">face</i>
+                    <input type="text" id="first_name" name="first_name" minlength="3" maxlength="16" value="" required autofocus>
+                    <label for="first_name">First Name</label>
+                </div>
+                <div class="input-field col s6 m6 l6">
+                    <i class="material-icons prefix">person</i>
+                    <input type="text" id="last_name" name="last_name" required minlength="3" maxlength="16" value="">
+                    <label for="last_name">Last Name</label>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="input-field col s6 m6 l6">
+                    <i class="material-icons prefix">insert_emoticon</i>
+                    <input type="text" id="username" name="username" value="" required minlength="5" maxlength="10">
+                    <label for="username">Username</label>
+                                        
+                </div>
+
+                <div class="input-field col s6 m6 l6">
+                    <i class="material-icons prefix">email</i>
+                    <input type="email" id="email" name="email" value="" required minlength="14" maxlength="32">
+                    <label for="email"> Email </label>
+                                    </div>
+            </div>
+
+            <div class="row">
+                <div class="input-field col s6 m6 l6">
+                    <i class="material-icons prefix">contact_phone</i>
+                    <input type="text" id="phone" name="phone" value="" required minlength="11" maxlength="11">
+                    <label for="phone">Phone</label>
+                                    </div>
+
+                <div class="input-field col s6 m6 l6">
+                    <i class="material-icons prefix">group_add</i>
+                <input type="text" id="referrer" value="GALAXYDATA" readonly>
+                    <input type="hidden" name="referrer" value="GALAXYDATA">
+                    <label for="referrer">Referrer</label>
+                                    </div>
+            </div>
+
+            <div class="row">
+                <div class="input-field col s6 m6 l6">
+                    <i class="material-icons prefix">lock</i>
+                    <input type="password" id="password" name="password" required>
+                    <label for="password">Password</label>
+                                    </div>
+
+                <div class="input-field col s6 m6 l6">
+                    <i class="material-icons prefix">lock</i>
+                    <input type="password" id="confirm_password" name="password_confirmation" required>
+                    <label for="confirm_password">Confirm Password</label>
+                </div>
+            </div>
+
+            <div class="input-field center-align">
+                <input type="hidden" name="form_type" value="11">
+                <button type="submit" name="submit"
+                    class="btn waves waves-button-input waves-effect waves-light green"
+                    style="background-color:rgb(77, 14, 14) !important;" id="login">
+                    <i class="material-icons right">send</i> Register
+                </button>
+            </div>
+        </div>
+    </form>
+
+    <p id="forgot-password">
+        <a href="login.html" style="color:#fff !important;">
+            Already have an account?&nbsp;Login
+        </a>
+    </p>
+    <p><a href="index.html">Return To Home</a></p>
+    </div>
+
+
+    <script src="https://paycheap.ng/ui/js/jquery-3.2.1.min.js"></script>
+    <script src="https://paycheap.ng/ui/js/materialize.min.js"></script>
+    <script src="https://paycheap.ng/alerts/js/alertify.min.js"></script>
+
+    <script>
+        $("#phone").ForceNumericOnly();
+    </script>
+
+</body>
+
+</html>
