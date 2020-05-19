@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Login | Galaxy Data</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+    <div id="particles-js"></div>
+    <div id="overlay">
+            <form action="https://galaxydata.ng/login" method="POST">
+            <input type="hidden" name="_token" value="aIneiI5kpf7aBcS2WPrZh6bnQKUHcDooNPZgvjGn">            <div class="card card-panel hoverable" id="card">
+                
+                <p style="display:block; text-align:center;" id="welcome-text">Hey, good to see you
+                    again! <br>
+                    <span id="welcome-text">Log in to get going.</span>
+                </p>
+                <div class="card-title">
+                    <h4 class="center-align">User Login</h4>
+                </div>
+                <div class="input-field">
+                    <label for="email">Username/Email:</label><br>
+                    <input type="text" id="email" name="email" required>
+                    
+                </div>
+                <div class="input-field">
+                    <label for="password">Password:</label><br>
+                    <input type="password" id="password" name="password" required>
+                    
+                </div>
+                <div class="input-field center-align">
+                    <button type="submit" name="submit"
+                        class="btn waves waves-button-input waves-effect waves-light green"
+                        style="background-color:rgb(77, 14, 14) !important; color: #fff;">
+                        <i class="material-icons right"send></i>Login
+                    </button>
+                <p><a href="password.html">Forgot your password</a></p>
+                </div>
+            </div>
+        </form>
+        <p id="forgot-password">
+        <a href="register.html" style="color:#fff !important;">
+                Don't have an account?&nbsp; Sign up
+            </a>
+        </p>
+        <p><a href="index.html">Return To Home</a></p>
+    </div>
+
+
+    <footer id="page-footer" class="page-footer" color:#fff;">
+                <p style="color:#fff !important;">Copyright Galaxy Data 2020</p>
+    </footer>
+</body>
+
+</html>
