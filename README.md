@@ -1,2 +1,3 @@
-# project0
-Project 0 submission
+# Project 1
+
+Web Programming with Python and JavaScript

@@ -1,0 +1,2 @@
+INSERT INTO users (username, password, email, firstname, lastname) VALUES ('goretti', 'goretti', 'omekeozioma@gmail.com', 'Ozioma', 'Ozioko');
+INSERT INTO users (username, password, email, firstname, lastname) VALUES ('goretti', 'goretti', 'omekeozioma@gmail.com', '', '');
